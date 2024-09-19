@@ -10,3 +10,7 @@
 > vendedores_meta_batida
 #Resultado da soma de quantos vendedores bateram a meta
 [1] 5
+#Ajuste de quem bateu um valor de meta menor ou igual a 15 será igualado a 15
+> ajuste_vendas <- ifelse(vendas < 15, 15, vendas)
+> ajuste_vendas
+ [1] 15 28 22 16 31 15 18 34 15 20
