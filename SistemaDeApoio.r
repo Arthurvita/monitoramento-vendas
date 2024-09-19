@@ -14,3 +14,8 @@
 > ajuste_vendas <- ifelse(vendas < 15, 15, vendas)
 > ajuste_vendas
  [1] 15 28 22 16 31 15 18 34 15 20
+ #geração de relatorio para saber quem bateu e nao bateu a meta após os ajustes
+> relatorio_vendas <- ifelse(ajuste_vendas >= 20, "Meta batida", "Meta não atingida")
+> for(i in 1:length(ajuste_vendas )) {
++     cat(paste("Vendedor", i, ":", relatorio_vendas[i], "\n"))
++ }
