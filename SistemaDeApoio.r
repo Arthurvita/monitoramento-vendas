@@ -5,3 +5,6 @@
 #verificação de quem bateu a meta
 > meta_batida
  [1] FALSE  TRUE  TRUE FALSE  TRUE FALSE FALSE  TRUE FALSE  TRUE
+ #Soma de quantos vendedores bateram a meta
+> vendedores_meta_batida <- sum(meta_batida)
+> vendedores_meta_batida
