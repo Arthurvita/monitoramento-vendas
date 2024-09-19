@@ -8,3 +8,5 @@
  #Soma de quantos vendedores bateram a meta
 > vendedores_meta_batida <- sum(meta_batida)
 > vendedores_meta_batida
+#Resultado da soma de quantos vendedores bateram a meta
+[1] 5
